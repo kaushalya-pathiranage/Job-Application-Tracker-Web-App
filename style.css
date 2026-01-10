@@ -1,0 +1,186 @@
+/* Reset and global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Form Section */
+.form-section, .controls-section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.form-section h2, .controls-section h2 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form input, .form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex: 1 1 25%;
+}
+
+.form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  flex: 1 1 15%;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #0056b3;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.controls input, .controls select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex: 1 1 30%;
+}
+
+/* Job cards */
+#jobs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+.job-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.job-info p {
+  font-size: 0.9rem;
+  margin: 2px 0;
+}
+
+.job-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.job-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.job-actions button.edit { background: #17a2b8; color: white; }
+.job-actions button.delete { background: #dc3545; color: white; }
+.job-actions button.status { background: #28a745; color: white; }
+
+.job-actions button:hover { opacity: 0.85; }
+
+/* Status border colors */
+.status-applied { border-left: 5px solid #007bff; }
+.status-interview { border-left: 5px solid #ffc107; }
+.status-offer { border-left: 5px solid #28a745; }
+.status-rejected { border-left: 5px solid #dc3545; }
+
+/* Toasts */
+#toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.toast {
+  background: #28a745;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  opacity: 0.95;
+  animation: slide-in 0.3s ease;
+}
+
+@keyframes slide-in {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 0.95; }
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .form input, .form button, .controls input, .controls select {
+    flex: 1 1 100%;
+  }
+
+  .job-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .job-actions {
+    margin-top: 10px;
+  }
+}
