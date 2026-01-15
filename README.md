@@ -85,7 +85,7 @@ This project uses a **Continuous Integration and Continuous Deployment (CI/CD) p
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/[username]/job-tracker-advanced.git
+git clone https://github.com/kaushalya-pathiranage/Job-Application-Tracker-Web-App.git
 
 # Navigate to project directory
 cd job-tracker-advanced
