@@ -11,10 +11,10 @@ The **Job Application Tracker Web App** helps users efficiently manage their job
 
 
 ## Technologies Used
-- HTML5, CSS3, JavaScript (ES6)  
+- HTML5, CSS3, JavaScript   
 - LocalStorage for data persistence  
 - GitHub Actions (CI/CD)  
-- Deployment Platform: Vercel  
+- Deployment Platform: Netlify  
 
 ## Features
 - Add/Edit/Delete job applications  
@@ -34,7 +34,7 @@ We implemented the following branching strategy:
 - `feature/job-tracker-ui` (Dimasha Thathsarani)  
 - `feature/ci-cd-setup` (Hashini Kaushalya)  
 
----
+
 
 ## Individual Contributions
 
@@ -51,13 +51,6 @@ We implemented the following branching strategy:
 - Implemented Search, Filter, and Sort features  
 - Ensured responsive design and user experience  
 - Created feature branch and pull request with proper commits  
-
-## Setup Instructions
-
-### Prerequisites
-- Node.js (version 18 or higher, optional if using build tools)
-  
-- Git  
 
 ## 🛠 CI/CD Pipeline
 
@@ -77,7 +70,7 @@ This project uses a **Continuous Integration and Continuous Deployment (CI/CD) p
 2. **Continuous Deployment (CD)**
    - Triggered after successful CI on `main`
    - Steps:
-     - Deploy build artifact to hosting service (Netlify / Vercel)
+     - Deploy build artifact to hosting service (Netlify )
      - Load environment variables securely
      - Optional post-deployment tests
      - Send deployment notifications
@@ -87,8 +80,6 @@ This project uses a **Continuous Integration and Continuous Deployment (CI/CD) p
 # Clone the repository
 git clone https://github.com/kaushalya-pathiranage/Job-Application-Tracker-Web-App.git
 
-# Navigate to project directory
-cd job-tracker-advanced
 
 # Install dependencies if using npm
 npm install
