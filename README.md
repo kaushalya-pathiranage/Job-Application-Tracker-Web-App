@@ -3,8 +3,8 @@ Job Application Tracker Web App built using Git, GitHub Actions CI/CD, and cloud
 # Job Application Tracker Web App
 
 ## Group Information
-- **Hashini Kaushalya** - ITBNM2313-0038 - Role: DevOps Engineer  
-- **Dimasha Thathsarani** - ITBNM2313-0081 - Role: Full-Stack Developer  
+- **Hashini Kaushalya** - ITBNM-2313-0038 - Role: DevOps Engineer  
+- **Dimasha Thathsarani** - ITBNM-2313-0081 - Role: Full-Stack Developer  
 
 ## Project Description
 The **Job Application Tracker Web App** helps users efficiently manage their job applications. Users can add, edit, delete, and update the status of job applications. It includes filtering, sorting, and search functionalities, and all data is stored in the browser's local storage for persistence. The app is fully responsive and works on mobile and desktop devices.
