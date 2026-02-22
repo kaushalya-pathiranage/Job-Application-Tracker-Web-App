@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Job Application Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-overlay">
+    <h1>Job Application Tracker</h1>
+    <p>One application closer to your dream career</p>
+  </div>
+</header>
+
+<div class="app-container">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h2>Navigation</h2>
+    <ul>
+      <li>📌 Dashboard</li>
+      <li>📄 Applications</li>
+      <li>📅 Timeline</li>
+      <li>⭐ Dream Companies</li>
+      <li>📂 Resume Vault</li>
+      <li>📊 Analytics</li>
+      <li>⚙ Settings</li>
+    </ul>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- STATS -->
+    <section class="stats">
+      <div class="stat">Applied <span id="total">0</span></div>
+      <div class="stat">Interviews <span id="interviews">0</span></div>
+      <div class="stat">Offers <span id="offers">0</span></div>
+    </section>
+
+    <!-- ADD FORM -->
+    <section class="card">
+      <h3>Add Job Application</h3>
+      <form id="jobForm">
+        <input id="company" placeholder="Company Name" required>
+        <input id="role" placeholder="Position" required>
+        <input id="date" type="date" required>
+        <select id="status">
+          <option>Applied</option>
+          <option>Interview</option>
+          <option>Offer</option>
+          <option>Rejected</option>
+        </select>
+        <button>Add Application</button>
+      </form>
+    </section>
+
+    <!-- SEARCH -->
+    <input id="search" placeholder="🔍 Search applications">
+
+    <!-- LIST -->
+    <section class="card">
+      <h3>Applications</h3>
+      <ul id="jobList"></ul>
+    </section>
+
+    <!-- EXTRA SECTIONS -->
+    <section class="extras">
+      <div class="extra-card">
+        <h4>⭐ Dream Companies</h4>
+        <p>Google, Microsoft, Amazon</p>
+      </div>
+      <div class="extra-card">
+        <h4>📂 Resume Vault</h4>
+        <p>Resume.pdf<br>CoverLetter.docx</p>
+      </div>
+      <div class="extra-card">
+        <h4>📅 This Week</h4>
+        <p>2 Applications Planned</p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
