@@ -2,6 +2,7 @@
 Job Application Tracker Web App built using Git, GitHub Actions CI/CD, and cloud deployment for Advanced DevOps assignment.
 # Job Application Tracker Web App
 Live Demo: https://spectacular-selkie-aed868.netlify.app/
+Repository:https://github.com/kaushalya-pathiranage/Job-Application-Tracker-Web-App  
 ## Group Information
 - **Hashini Kaushalya** - ITBNM-2313-0038 - Role: DevOps Engineer  
 - **Dimasha Thathsarani** - ITBNM-2313-0081 - Role: Full-Stack Developer  
@@ -11,23 +12,46 @@ The **Job Application Tracker Web App** helps users efficiently manage their job
 
 
 ## Technologies Used
-- HTML5 – Structure and content of the web pages
-- CSS3 – Styling and responsive design
-- JavaScript – Interactive functionalities (Add/Edit/Delete, Status Update, Search, Filter, Sort)
-- LocalStorage – Persistent storage of job application data in the browser
-- Git – Version control for tracking code changes
-- GitHub – Repository hosting, collaboration, and pull request management
-- GitHub Actions (CI/CD) – Automated testing, building, and deployment pipeline
-- Netlify – Hosting and deployment of the web application  
-
+- **HTML5** – Structure and content of the web pages  
+- **CSS3** – Styling and responsive design  
+- **JavaScript** – Interactive functionalities (Add/Edit/Delete, Status Update, Search, Filter, Sort)  
+- **LocalStorage** – Persistent storage of job application data in the browser  
+- **Git** – Version control for tracking code changes  
+- **GitHub** – Repository hosting, collaboration, and pull request management  
+- **GitHub Actions (CI/CD)** – Automated testing, building, and deployment pipeline 
+- **Docker** – Containerization of the web application  
+- **Docker Compose** – Multi-container orchestration and simplified deployment  
+- **Netlify** – Hosting and deployment of the web application
+  
 ## Features
-- Add/Edit/Delete job applications  
-- Update job status: Applied → Interview → Offer → Rejected  
-- Filter jobs by status  
-- Search jobs by title or company  
-- Sort jobs by date or status  
-- Responsive UI for mobile and desktop  
+-  Add job applications  
+-  Update application status  
+-  Delete applications  
+-  Responsive UI  
+-  Docker container support  
+-  Docker Compose orchestration
 
+## Docker Implementation
+The application is fully containerised using:
+
+- Dockerfile for image creation  
+- Docker Compose for service orchestration  
+- .dockerignore for build optimisation  
+
+ ## Prerequisites
+
+Before running the project, install:
+
+- Docker Desktop (latest version)  
+- Docker Compose (included with Docker Desktop)  
+- Git  
+
+## Verify installation:
+
+```bash
+docker --version
+docker-compose --version
+git --version
 ## Branch Strategy
 We implemented the following branching strategy:
 - `main` - Production branch (protected, auto-deployed)  
@@ -52,6 +76,13 @@ Job-Application-Tracker-Web-App/
 ├── src/
 └── README.md
 ```
+
+## Performance Optimisations
+
+- Layer caching enabled in Dockerfile
+- .dockerignore reduces image size
+- Lightweight base image used
+- Dependencies installed efficiently
 
 ## Individual Contributions
 
