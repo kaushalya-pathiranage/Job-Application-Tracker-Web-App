@@ -1,7 +1,7 @@
 # Job-Application-Tracker-Web-App
 Job Application Tracker Web App built using Git, GitHub Actions CI/CD, and cloud deployment for Advanced DevOps assignment.
 # Job Application Tracker Web App
-
+Live Demo: https://spectacular-selkie-aed868.netlify.app/
 ## Group Information
 - **Hashini Kaushalya** - ITBNM-2313-0038 - Role: DevOps Engineer  
 - **Dimasha Thathsarani** - ITBNM-2313-0081 - Role: Full-Stack Developer  
@@ -11,10 +11,14 @@ The **Job Application Tracker Web App** helps users efficiently manage their job
 
 
 ## Technologies Used
-- HTML5, CSS3, JavaScript   
-- LocalStorage for data persistence  
-- GitHub Actions (CI/CD)  
-- Deployment Platform: Netlify  
+- HTML5 – Structure and content of the web pages
+- CSS3 – Styling and responsive design
+- JavaScript – Interactive functionalities (Add/Edit/Delete, Status Update, Search, Filter, Sort)
+- LocalStorage – Persistent storage of job application data in the browser
+- Git – Version control for tracking code changes
+- GitHub – Repository hosting, collaboration, and pull request management
+- GitHub Actions (CI/CD) – Automated testing, building, and deployment pipeline
+- Netlify – Hosting and deployment of the web application  
 
 ## Features
 - Add/Edit/Delete job applications  
@@ -28,13 +32,20 @@ The **Job Application Tracker Web App** helps users efficiently manage their job
 We implemented the following branching strategy:
 - `main` - Production branch (protected, auto-deployed)  
 - `develop` - Integration branch for testing and merging features  
-- `feature/*` - Individual feature development branches  
-
-### Feature Branch Examples
-- `feature/job-tracker-ui` (Dimasha Thathsarani)  
-- `feature/ci-cd-setup` (Hashini Kaushalya)  
 
 
+ ```
+Job-Application-Tracker-Web-App/
+│
+├── .github/
+│ └── workflows/
+│ └── ci.yml
+├── index.html
+├── style.css
+├── app.js
+├── .gitignore
+└── README.md
+```
 
 ## Individual Contributions
 
@@ -52,9 +63,11 @@ We implemented the following branching strategy:
 - Ensured responsive design and user experience  
 - Created feature branch and pull request with proper commits  
 
-## 🛠 CI/CD Pipeline
+##  CI/CD Pipeline
 
 This project uses a **Continuous Integration and Continuous Deployment (CI/CD) pipeline** to automate testing, building, and deployment.
+
+Workflow file location : ```.github\workflows```
 
 ### **Pipeline Overview**
 
@@ -80,6 +93,8 @@ This project uses a **Continuous Integration and Continuous Deployment (CI/CD) p
 # Clone the repository
 git clone https://github.com/kaushalya-pathiranage/Job-Application-Tracker-Web-App.git
 
+# Navigate into project
+cd Job-Application-Tracker-Web-App
 
 # Install dependencies if using npm
 npm install
