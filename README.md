@@ -128,6 +128,17 @@ Workflow file location : ```.github\workflows```
      - Optional post-deployment tests
      - Send deployment notifications
 
+## DevOps Concepts Demonstrated
+
+- Version control with Git & GitHub
+- CI/CD using GitHub Actions
+- Branch strategy: main (production) and develop (integration)
+- Automated testing (linting & unit tests)
+- Containerization with Docker
+- Multi-container orchestration with Docker Compose
+- Cloud deployment on Netlify
+- Performance optimization via Docker caching and lightweight images
+
 ### Installation
 ```bash
 # Clone the repository
