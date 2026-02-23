@@ -59,8 +59,9 @@ We implemented the following branching strategy:
 
 
  ```
-Job-Application-Tracker-Web-App/
-│
+
+## Job-Application-Tracker-Web-App/
+```
 ├── .github/
 │ └── workflows/
 │ └── ci.yml
@@ -76,7 +77,6 @@ Job-Application-Tracker-Web-App/
 ├── src/
 └── README.md
 ```
-
 ## Performance Optimisations
 
 - Layer caching enabled in Dockerfile
