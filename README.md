@@ -28,13 +28,20 @@ The **Job Application Tracker Web App** helps users efficiently manage their job
 We implemented the following branching strategy:
 - `main` - Production branch (protected, auto-deployed)  
 - `develop` - Integration branch for testing and merging features  
-- `feature/*` - Individual feature development branches  
-
-### Feature Branch Examples
-- `feature/job-tracker-ui` (Dimasha Thathsarani)  
-- `feature/ci-cd-setup` (Hashini Kaushalya)  
 
 
+ ```
+Job-Application-Tracker-Web-App/
+│
+├── .github/
+│ └── workflows/
+│ └── ci.yml
+├── index.html
+├── style.css
+├── app.js
+├── .gitignore
+└── README.md
+```
 
 ## Individual Contributions
 
