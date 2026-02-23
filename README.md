@@ -63,7 +63,7 @@ Job-Application-Tracker-Web-App/
 - Ensured responsive design and user experience  
 - Created feature branch and pull request with proper commits  
 
-## 🛠 CI/CD Pipeline
+##  CI/CD Pipeline
 
 This project uses a **Continuous Integration and Continuous Deployment (CI/CD) pipeline** to automate testing, building, and deployment.
 
