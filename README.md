@@ -8,9 +8,29 @@ Repository:https://github.com/kaushalya-pathiranage/Job-Application-Tracker-Web-
 - **Dimasha Thathsarani** - ITBNM-2313-0081 - Role: Full-Stack Developer  
 
 ## Project Description
-The **Job Application Tracker Web App** helps users efficiently manage their job applications. Users can add, edit, delete, and update the status of job applications. It includes filtering, sorting, and search functionalities, and all data is stored in the browser's local storage for persistence. The app is fully responsive and works on mobile and desktop devices.
+The Job Application Tracker Web App helps users keep track of their job applications easily. Users can:
 
+- Add, edit, or delete applications
+- Update application status (e.g., Applied, Interview, Offer)
+- Search, filter, and sort applications
 
+All data is saved in the browser, so it stays even after closing the app. The app works well on desktop and mobile and can run in a Docker container.
+
+## Job-Application-Tracker-Web-App/
+```
+├── .github/
+│ └── workflows/
+│ └── ci.yml
+├── index.html
+├── style.css
+├── app.js
+├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+├── package.json
+└── README.md
+```
 ## Technologies Used
 - **HTML5** – Structure and content of the web pages  
 - **CSS3** – Styling and responsive design  
@@ -24,10 +44,10 @@ The **Job Application Tracker Web App** helps users efficiently manage their job
 - **Netlify** – Hosting and deployment of the web application
   
 ## Features
--  Add job applications  
+-  Add, edit, delete job applications  
 -  Update application status  
--  Delete applications  
--  Responsive UI  
+-  Search, filter, and sort  
+-  Responsive user interface  
 -  Docker container support  
 -  Docker Compose orchestration
 
@@ -46,37 +66,20 @@ Before running the project, install:
 - Docker Compose (included with Docker Desktop)  
 - Git  
 
-## Verify installation:
+ **Verify installation:**
 
 ```bash
 docker --version
 docker-compose --version
 git --version
-## Branch Strategy
+```
+
+ **Branch Strategy**
+```
 We implemented the following branching strategy:
 - `main` - Production branch (protected, auto-deployed)  
 - `develop` - Integration branch for testing and merging features  
-
-
  ```
-
-## Job-Application-Tracker-Web-App/
-```
-├── .github/
-│ └── workflows/
-│ └── ci.yml
-├── index.html
-├── style.css
-├── app.js
-├── .gitignore
-├── Dockerfile
-├── docker-compose.yml
-├── .dockerignore
-├── package.json
-├── package-lock.json
-├── src/
-└── README.md
-```
 ## Performance Optimisations
 
 - Layer caching enabled in Dockerfile
@@ -86,14 +89,14 @@ We implemented the following branching strategy:
 
 ## Individual Contributions
 
-### Hashini Kaushalya
+### Hashini Kaushalya (DevOps Engineer)
 - Repository setup and configuration  
 - Created GitHub Actions CI/CD workflows  
 - Deployment setup on Vercel  
 - Managed branch protection rules and merge conflict resolution  
 - PR review and approval  
 
-### Dimasha Thathsarani
+### Dimasha Thathsarani (Full-Stack Developer)
 - Developed Job Application Tracker UI using HTML/CSS/JS  
 - Implemented Add/Edit/Delete and Status Update functionalities  
 - Implemented Search, Filter, and Sort features  
