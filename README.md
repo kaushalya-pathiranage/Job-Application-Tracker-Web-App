@@ -67,6 +67,8 @@ Job-Application-Tracker-Web-App/
 
 This project uses a **Continuous Integration and Continuous Deployment (CI/CD) pipeline** to automate testing, building, and deployment.
 
+Workflow file location : ```.github\workflows```
+
 ### **Pipeline Overview**
 
 1. **Continuous Integration (CI)**
