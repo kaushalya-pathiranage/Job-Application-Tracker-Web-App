@@ -44,6 +44,12 @@ Job-Application-Tracker-Web-App/
 ├── style.css
 ├── app.js
 ├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+├── package.json
+├── package-lock.json
+├── src/
 └── README.md
 ```
 
