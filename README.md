@@ -87,6 +87,8 @@ This project uses a **Continuous Integration and Continuous Deployment (CI/CD) p
 # Clone the repository
 git clone https://github.com/kaushalya-pathiranage/Job-Application-Tracker-Web-App.git
 
+# Navigate into project
+cd Job-Application-Tracker-Web-App
 
 # Install dependencies if using npm
 npm install
