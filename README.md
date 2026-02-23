@@ -11,10 +11,14 @@ The **Job Application Tracker Web App** helps users efficiently manage their job
 
 
 ## Technologies Used
-- HTML5, CSS3, JavaScript   
-- LocalStorage for data persistence  
-- GitHub Actions (CI/CD)  
-- Deployment Platform: Netlify  
+- HTML5 – Structure and content of the web pages
+- CSS3 – Styling and responsive design
+- JavaScript – Interactive functionalities (Add/Edit/Delete, Status Update, Search, Filter, Sort)
+- LocalStorage – Persistent storage of job application data in the browser
+- Git – Version control for tracking code changes
+- GitHub – Repository hosting, collaboration, and pull request management
+- GitHub Actions (CI/CD) – Automated testing, building, and deployment pipeline
+- Netlify – Hosting and deployment of the web application  
 
 ## Features
 - Add/Edit/Delete job applications  
