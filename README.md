@@ -2,7 +2,7 @@
 Job Application Tracker Web App built using Git, GitHub Actions CI/CD, and cloud deployment for Advanced DevOps assignment.
 # Job Application Tracker Web App
 Live Demo: https://spectacular-selkie-aed868.netlify.app/
-Repository:https://github.com/kaushalya-pathiranage/Job-Application-Tracker-Web-App  
+
 ## Group Information
 - **Hashini Kaushalya** - ITBNM-2313-0038 - Role: DevOps Engineer  
 - **Dimasha Thathsarani** - ITBNM-2313-0081 - Role: Full-Stack Developer  
